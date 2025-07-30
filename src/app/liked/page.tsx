@@ -5,7 +5,7 @@ import { removeLiked } from "@/store/slices/likedSlice";
 import Link from "next/link";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function LikedPage() {
   const liked = useSelector((state: RootState) => state.liked.liked);
@@ -88,7 +88,7 @@ export default function LikedPage() {
             }`}
           >
             <div className="relative">
-              <Image
+              <img
                 src={profile.picture}
                 className="w-full h-48 object-cover transform hover:scale-105 transition-transform duration-300"
                 alt={profile.name}

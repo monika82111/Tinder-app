@@ -48,7 +48,7 @@ export default function ProfileDetailPage() {
       >
         {/* Header image */}
         <div className="relative">
-          <Image
+          <img
             src={profile.picture}
             className="w-full h-80 object-cover"
             alt={profile.name}

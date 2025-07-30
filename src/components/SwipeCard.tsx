@@ -5,7 +5,7 @@ import { nextProfile } from "@/store/slices/profilesSlice";
 import { likeUser } from "@/store/slices/likedSlice";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 
 interface Profile {
   id: string;
@@ -129,7 +129,7 @@ export default function SwipeCard({ profile }: { profile: Profile }) {
 
         {/* Profile image with enhanced styling */}
         <div className="relative overflow-hidden rounded-xl mb-4">
-          <Image
+          <img
             src={profile.picture}
             className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300"
             alt={profile.name}
