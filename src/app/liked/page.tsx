@@ -92,8 +92,8 @@ export default function LikedPage() {
                 src={profile.picture}
                 className="w-full h-48 object-cover transform hover:scale-105 transition-transform duration-300"
                 alt={profile.name}
-                width={200} // required
-                height={200} // required
+                // width={200} // required
+                // height={200} // required
               />
               <div className="absolute top-3 right-3 bg-gradient-to-r from-green-400 to-green-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
                 ♥ Liked

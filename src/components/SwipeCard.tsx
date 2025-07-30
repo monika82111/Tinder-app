@@ -133,8 +133,8 @@ export default function SwipeCard({ profile }: { profile: Profile }) {
             src={profile.picture}
             className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300"
             alt={profile.name}
-            width={200} // required
-            height={200} // required
+            // width={200} // required
+            // height={200} // required
           />
           {/* Gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>

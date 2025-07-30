@@ -52,8 +52,8 @@ export default function ProfileDetailPage() {
             src={profile.picture}
             className="w-full h-80 object-cover"
             alt={profile.name}
-            width={200} // required
-            height={200} // required
+            // width={200} // required
+            // height={200} // required
           />
           {/* Gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
